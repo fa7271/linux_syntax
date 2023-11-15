@@ -5,13 +5,9 @@
 nano for.sh
 chmod 777 for.sh
 
+mkdir mydir3
+cd mydir3
 
-echo "start"
-if [ -d "mydir2" ]; then
-    cd mydir2
-else:
-    mkdir mydir2
-    cd mydir2
 echo "for_file 안에 hello world문 1~100 까지 출력"
 file=for_file.txt
 if [ -f "$file" ]; then

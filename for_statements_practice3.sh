@@ -11,7 +11,7 @@ for i in {1..100}
     touch file$i.txt
     for j in {1..100}
     do
-        echo "hello wolrd$i" >> file$i.txt
+        echo hello wolrd$i >> file$i.txt
     done
 done
 for x in {1..100}
